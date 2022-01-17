@@ -279,7 +279,8 @@ var CBIAbstractElement = baseclass.extend(/** @lends LuCI.form.AbstractElement.p
 		if (typeof(s) == 'string' && !s.match(/[<>]/))
 			return s;
 
-		var x = E('div', {}, s);
+		var x = dom.parse('<div>' + s + '</div>');
+
 		return x.textContent || x.innerText || '';
 	},
 
@@ -1692,6 +1693,9 @@ var CBIAbstractValue = CBIAbstractElement.extend(/** @lends LuCI.form.AbstractVa
 
 		if (cval == null)
 			cval = this.default;
+
+		if (Array.isArray(cval))
+			cval = cval.join(' ');
 
 		return (cval != null) ? '%h'.format(cval) : null;
 	},

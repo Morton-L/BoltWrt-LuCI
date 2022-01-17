@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2021-02-25 15:04+0000\n"
-"Last-Translator: bovirus <roberto.boriotti@canon-europe.com>\n"
+"PO-Revision-Date: 2021-11-15 14:07+0000\n"
+"Last-Translator: coronabond <coronabond@airmail.cc>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationscommands/it/>\n"
 "Language: it\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5\n"
+"X-Generator: Weblate 4.9.1-dev\n"
 
 #: applications/luci-app-commands/luasrc/model/cbi/commands.lua:16
 msgid "A short textual description of the configured command"
@@ -89,7 +89,7 @@ msgstr "Argomenti Personalizzati"
 
 #: applications/luci-app-commands/luasrc/controller/commands.lua:8
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Pannello di controllo"
 
 #: applications/luci-app-commands/luasrc/model/cbi/commands.lua:15
 msgid "Description"
@@ -145,4 +145,4 @@ msgstr ""
 
 #: applications/luci-app-commands/luasrc/view/commands.htm:54
 msgid "Waiting for command to complete..."
-msgstr "In attesa del comando da completare..."
+msgstr "In attesa che il comando sia completato..."

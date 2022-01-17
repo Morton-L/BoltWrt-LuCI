@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-25 15:04+0000\n"
-"Last-Translator: bovirus <roberto.boriotti@canon-europe.com>\n"
+"PO-Revision-Date: 2021-09-22 00:01+0000\n"
+"Last-Translator: pisquan8 <cimurro@outlook.de>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsnextdns/it/>\n"
 "Language: it\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:34
 msgid ""
@@ -25,7 +25,7 @@ msgstr ""
 
 #: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:17
 msgid "Enabled"
-msgstr "Inglese (sviluppatore)"
+msgstr "Abilitato"
 
 #: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:28
 msgid "Expose LAN clients information in NextDNS analytics."
@@ -39,7 +39,7 @@ msgstr ""
 
 #: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:14
 msgid "General"
-msgstr ""
+msgstr "Generale"
 
 #: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:24
 msgid "Go to nextdns.io to create a configuration."
@@ -72,7 +72,7 @@ msgstr ""
 
 #: applications/luci-app-nextdns/luasrc/controller/nextdns.lua:17
 msgid "Overview"
-msgstr ""
+msgstr "Riepilogo"
 
 #: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:27
 msgid "Report Client Info"
